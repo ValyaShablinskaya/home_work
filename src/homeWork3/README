@@ -1,0 +1,14 @@
+runners.WithoutCalculatorMain - задание 1;
+simple.CalculatorWithOperator, runners.CalculatorWithOperatorMain - задание 2;
+simple.CalculatorWithMathCopy, runners.CalculatorWithMathCopyMain - задание 3;
+simple.CalculatorWithMathExtends, runners.CalculatorWithMathExtendsMain - задание 4;
+additional.CalculatorWithCounterClassic, runners.CalculatorWithCounterClassicMain - задание 5;
+additional.CalculatorWithCounterAutoSuper, runners.CalculatorWithCounterAutoSuperMain задание 6;
+additional.CalculatorWithCounterAutoComposite, additional.CalculatorWithCounterAutoAggregation,
+runners.CalculatorWithCounterDelegateMain - задание 7;
+api.ICalculator - задание 8;
+additional.CalculatorWithCounterAutoAggregationInterface,
+additional.CalculatorWithCounterAutoCompositeInterfaceMain - задание 9;
+additional.CalculatorWithMemory, runners.CalculatorWithMemoryMain - задание 10;
+additional.CalculatorWithCounterAutoDecorator, additional.CalculatorWithMemoryDecorator,
+runners.CalculatorDecoratorMain - задание 10;
