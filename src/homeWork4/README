@@ -1,0 +1,14 @@
+DataContainer - Задания 4 - 12:
+метод int add(T item) добавляет данные во внутреннее поле data и возвращает номер позиции в
+которую были вставлены данные, начиная с 0;
+метод T get(int index) возвращает индекс эллемента;
+метод T[] getItems() для получения содержимого массива;
+метод boolean delete(int index) удаляет элемент из  поля data по индексу;
+метод boolean delete(T item) удаляет элемент из  поля data;
+метод sort(Comparator<T>comparator) сортирует данные, используя реализация сравнения из переданного объекта Comparator;
+метод String toString() переопределенный метод toString();
+метод <T extends Comparable<T>> void sort(DataContainer<T> dataContainer) сортирует элементы в переданном
+объекте DataContainer используя реализацию сравнения вызываемый у хранимых объектов;
+метод <T> void sort(DataContainer<T> dataContainer, Comparator<T> comparator) сортирует элементы в переданном объекте
+DataContainer используя реализацию сравнения из переданного объекта интерфейса Comparator.
+DataContainerMain для тестирования.
