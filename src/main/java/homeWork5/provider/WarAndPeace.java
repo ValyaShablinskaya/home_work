@@ -10,7 +10,7 @@ public class WarAndPeace {
      * @return массив строк
      */
     public String[] removePunctuation(String text) {
-        return text.replaceAll("(\\p{Punct}|\\p{Space}|\\p{Graph}){1,}", " ")
+        return text.replaceAll("(\\.|,|:|;|=|\\*|\"|!|\\?|\\(|\\)|\n|\t|--|-\\s+|\\s+-|\\s+)", " ")
                 .split(" ");
     }
 

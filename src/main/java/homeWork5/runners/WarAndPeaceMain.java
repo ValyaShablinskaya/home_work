@@ -48,6 +48,3 @@ public class WarAndPeaceMain {
         System.out.println(searchCaseInsensitive.search(text, "мир"));
     }
 }
-
-
-
